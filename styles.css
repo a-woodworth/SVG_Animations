@@ -1,3 +1,7 @@
+/* --------------------------
+  Base
+--------------------------- */
+
 body {
   margin: 0;
   padding: 0;
@@ -62,6 +66,16 @@ footer {
   color: #ba8058;
 }
 
+/* --------------------------
+  Navigation Menu Styles
+--------------------------- */
+
+.navbar li:hover a,
+.navbar li:hover svg path {
+  color: #D41159;
+  fill:  #D41159;
+}
+
 .heart-icon,
 .location-icon,
 .contact-icon {
@@ -70,8 +84,42 @@ footer {
   fill: #39add1;
 }
 
-.navbar li:hover a,
-.navbar li:hover svg path {
-  color: #D41159;
-  fill:  #D41159;
+/* --------------------------
+  Logo Styles
+--------------------------- */
+
+.logo-icon svg {
+  height: 120px;
+  width: 140px;
+}
+
+.logo-icon h1 {
+  color: #eaaa7f;
+  margin: 0;
+}
+
+/*Colors removed from logo.svg inline styles*/
+.st1 {
+  fill: transparent;
+}
+
+.st2 {
+  fill: #f4c6a6;
+}
+
+.logo-icon ellipse {
+  fill: #ba8058;
+}
+
+/* --------------------------
+  Media Queries
+--------------------------- */
+
+@media screen and (min-width: 425px) {
+  .st1 {
+    fill: #eaaa7f;
+  }
+  .logo-icon h1 {
+    display: none;
+  }
 }
