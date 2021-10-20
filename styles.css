@@ -61,3 +61,10 @@ footer {
   padding-bottom: 30px;
   color: #ba8058;
 }
+
+.heart-icon,
+.location-icon,
+.contact-icon {
+  transform: scale(0.6) translate(10px, 10px);
+  padding-right: 2px;
+}
