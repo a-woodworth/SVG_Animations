@@ -67,4 +67,11 @@ footer {
 .contact-icon {
   transform: scale(0.6) translate(10px, 10px);
   padding-right: 2px;
+  fill: #39add1;
+}
+
+.navbar li:hover a,
+.navbar li:hover svg path {
+  color: #D41159;
+  fill:  #D41159;
 }
