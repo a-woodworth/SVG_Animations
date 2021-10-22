@@ -112,6 +112,33 @@ footer {
 }
 
 /* --------------------------
+  Corgi Styles
+--------------------------- */
+
+.doggo-div svg {
+  width: 170px;
+  height: 190px;
+  padding: 0 10px;
+  color: #b97f5b;
+}
+
+.doggo-div svg text {
+  fill: #b97f5b;
+}
+
+.doggo-fawn {
+  color: #e9aa82;
+}
+
+.doggo-red {
+  color: #834b29;
+}
+
+.doggo-stone {
+  color: #52595e;
+}
+
+/* --------------------------
   Media Queries
 --------------------------- */
 
