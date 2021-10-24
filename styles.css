@@ -107,17 +107,37 @@ footer {
   margin: 0;
 }
 
-/*Colors removed from logo.svg inline styles*/
+/*Logo Text*/
 .st1 {
   fill: transparent;
 }
 
+/*Logo Pawprint*/
 .st2 {
   fill: #f4c6a6;
 }
 
+.st2:hover {
+  transform-origin: 50% 50%;
+  animation: shrink .5s forwards;
+}  
+
+/*Logo Background*/
 .logo-icon ellipse {
   fill: #ba8058;
+}
+
+/*Keyframes*/
+@keyframes shrink {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(.75);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 /* --------------------------
